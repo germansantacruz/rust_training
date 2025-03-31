@@ -1,0 +1,10 @@
+## Archivos y directorios generados por Rust/Cargo ##
+**/target/          # Ignora todas las carpetas target en cualquier nivel
+**/*.rs.bk          # Copias de seguridad de archivos Rust
+**/Cargo.lock       # Ignora los lock files de los proyectos (excepto el del workspace)
+
+## Archivos específicos del IDE ##
+.idea/
+.vscode/
+*.swp
+*.swo
